@@ -10,7 +10,12 @@ const App = () => {
   return (
  
 <>
-
+<MyContext.Provider  value={"Asif"}>
+      <ChildB/>
+   </MyContext.Provider>
+  <MyContext.Provider  value={"Asif"}>
+      <ChildB/>
+   </MyContext.Provider>
    <MyContext.Provider  value={"Asif"}>
       <ChildA/>
    </MyContext.Provider>
