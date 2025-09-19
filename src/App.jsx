@@ -28,6 +28,9 @@ const App = () => {
     <MyContext.Provider  value={"Asif"}>
       <ChildB/>
    </MyContext.Provider>
+  <MyContext.Provider  value={"Muhammad Asif Ansari"}>
+      <ChildB/>
+   </MyContext.Provider>
 </>
   )
 }
